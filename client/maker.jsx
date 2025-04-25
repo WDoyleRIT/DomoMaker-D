@@ -2,7 +2,7 @@ const helper = require("./helper.js");
 const React = require('react');
 const { useState, useEffect } = React;
 const { createRoot } = require('react-dom/client');
-const { Domo } = require("../server/models/index.js");
+//const { Domo } = require("../server/models/index.js");
 
 const handleDomo = (e, onDomoAdded) => {
     e.preventDefault();
